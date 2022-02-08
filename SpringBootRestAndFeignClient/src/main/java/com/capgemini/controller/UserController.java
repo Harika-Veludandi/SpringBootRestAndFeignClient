@@ -20,7 +20,7 @@ import com.capgemini.eo.User;
 @RequestMapping("/api")
 public class UserController {
 	
-	    @Value("${springboot.provider.url}")
+	    @Value("$ {springboot.provider.url}")
 	    private String url;
 		
 		@Autowired
